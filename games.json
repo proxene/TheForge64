@@ -1,18 +1,44 @@
 {
-    "Jeu 1": {
-        "header": "monimage.png",
-        "type": "arcade",
-        "inputs": [
-            "fire",
-            "jump"
-        ]
+    "Fi$tful of Buck$": {
+        "header": "https://gb64.com/Screenshots/F/A_Fistful_of_Bucks_1.png",
+        "desc": "Fi$tful of Buck$ is an arcade-style western shooter where reflexes and timing are everything. You control a gunslinger navigating through hostile towns and open desert areas, facing waves of enemies intent on stopping you.",
+        "type": "Shoot'em Up",
+        "players": "single",
+        "port": "2",
+        "inputs": {
+            "j-up": "JU",
+            "j-down": "DOWN",
+            "j-left": "JL",
+            "j-right": "JR",
+            "b-fire1": "JF",
+            "b-fire2": "JF",
+            "b-cornerleft": "",
+            "b-cornerright": "",
+            "b-bottom1": "F1",
+            "b-bottom2": "F3",
+            "b-bottom3": "F5",
+            "b-bottom4": "F7"
+        }
     },
-    "Jeu 2": {
-        "header": "monimage.png",
-        "type": "course",
-        "inputs": [
-            "fire",
-            "jump"
-        ]
+    "Get Off my Garden!": {
+        "header": "https://gb64.com/Screenshots/G/Get_Off_My_Garden%21_1.png",
+        "desc": "In Get Off My Garden!, you take control of a General Agricultural Robot Functionary (G.A.R.F.) in a side‑view, single‑screen action/shooter setup. Your main goal is to grow six special plants (Aquaronum Upshootus) in your garden while defending them from waves of hostile creatures that try to destroy them.",
+        "type": "Shoot'em Up",
+        "players": "single",
+        "port": "2",
+        "inputs": {
+            "j-up": "JU",
+            "j-down": "DOWN",
+            "j-left": "JL",
+            "j-right": "JR",
+            "b-fire1": "JF",
+            "b-fire2": "JF",
+            "b-cornerleft": "",
+            "b-cornerright": "",
+            "b-bottom1": "F1",
+            "b-bottom2": "F3",
+            "b-bottom3": "F5",
+            "b-bottom4": "F7"
+        }
     }
 }
