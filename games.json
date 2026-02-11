@@ -1,0 +1,18 @@
+{
+    "Jeu 1": {
+        "header": "monimage.png",
+        "type": "arcade",
+        "inputs": [
+            "fire",
+            "jump"
+        ]
+    },
+    "Jeu 2": {
+        "header": "monimage.png",
+        "type": "course",
+        "inputs": [
+            "fire",
+            "jump"
+        ]
+    }
+}
