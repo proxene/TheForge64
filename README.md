@@ -1,4 +1,4 @@
-# 🎮 JoyForge64 – CJM Generator Commodore 64 Mini & Maxi
+# 🎮 JoyForge64 – CJM Generator C64 Mini & Maxi
 
 <br />
 
