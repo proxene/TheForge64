@@ -6,18 +6,18 @@
         "players": "single",
         "port": "2",
         "inputs": {
-            "j-up": "JU",
-            "j-down": "DOWN",
-            "j-left": "JL",
-            "j-right": "JR",
-            "b-fire1": "JF",
-            "b-fire2": "JF",
-            "b-cornerleft": "",
-            "b-cornerright": "",
-            "b-bottom1": "F1",
-            "b-bottom2": "F3",
-            "b-bottom3": "F5",
-            "b-bottom4": "F7"
+            "j-up": ["Move UP", "JU"],
+            "j-down": ["Move DOWN", "JD"],
+            "j-left": ["Move LEFT", "JL"],
+            "j-right": ["Move RIGHT", "JR"],
+            "b-fire1": ["Fire 1", ""],
+            "b-fire2": ["Fire 2", "JF"],
+            "b-cornerleft": ["Corner Left", ""],
+            "b-cornerright": ["Corner Right", ""],
+            "b-bottom1": ["Bottom 1", "F1"],
+            "b-bottom2": ["Bottom 2", "F3"],
+            "b-bottom3": ["Bottom 3", "F5"],
+            "b-bottom4": ["Bottom 4", "F7"]
         }
     },
     "Fi$tful of Buck$": {
@@ -27,18 +27,18 @@
         "players": "single",
         "port": "2",
         "inputs": {
-            "j-up": "JU",
-            "j-down": "DOWN",
-            "j-left": "JL",
-            "j-right": "JR",
-            "b-fire1": "JF",
-            "b-fire2": "JF",
-            "b-cornerleft": "",
-            "b-cornerright": "",
-            "b-bottom1": "F1",
-            "b-bottom2": "F3",
-            "b-bottom3": "F5",
-            "b-bottom4": "F7"
+            "j-up": ["Move UP", "JU"],
+            "j-down": ["Move DOWN", "JD"],
+            "j-left": ["Move LEFT", "JL"],
+            "j-right": ["Move RIGHT", "JR"],
+            "b-fire1": ["Fire 1", ""],
+            "b-fire2": ["Fire 2", "JF"],
+            "b-cornerleft": ["Corner Left", ""],
+            "b-cornerright": ["Corner Right", ""],
+            "b-bottom1": ["Bottom 1", "F1"],
+            "b-bottom2": ["Bottom 2", "F3"],
+            "b-bottom3": ["Bottom 3", "F5"],
+            "b-bottom4": ["Bottom 4", "F7"]
         }
     },
     "Get Off my Garden!": {
@@ -48,18 +48,18 @@
         "players": "single",
         "port": "2",
         "inputs": {
-            "j-up": "JU",
-            "j-down": "DOWN",
-            "j-left": "JL",
-            "j-right": "JR",
-            "b-fire1": "JF",
-            "b-fire2": "JF",
-            "b-cornerleft": "",
-            "b-cornerright": "",
-            "b-bottom1": "F1",
-            "b-bottom2": "F3",
-            "b-bottom3": "F5",
-            "b-bottom4": "F7"
+            "j-up": ["Move UP", "JU"],
+            "j-down": ["Move DOWN", "JD"],
+            "j-left": ["Move LEFT", "JL"],
+            "j-right": ["Move RIGHT", "JR"],
+            "b-fire1": ["Fire 1", ""],
+            "b-fire2": ["Fire 2", "JF"],
+            "b-cornerleft": ["Corner Left", ""],
+            "b-cornerright": ["Corner Right", ""],
+            "b-bottom1": ["Bottom 1", "F1"],
+            "b-bottom2": ["Bottom 2", "F3"],
+            "b-bottom3": ["Bottom 3", "F5"],
+            "b-bottom4": ["Bottom 4", "F7"]
         }
     }
 }
