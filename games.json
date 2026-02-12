@@ -54,8 +54,8 @@
             "input-3": ["Move Left", "A", "JL"],
             "input-4": ["Move Right", "D", "JR"],
             "input-5": ["Fire / Place Trap / Accelerate", "LSHIFT", "JF"],
-            "input-6": ["Choose equipment", "F1", "Y"]
-            "input-7": ["Ghost Bait", "B", "B"],
+            "input-6": ["Choose equipment", "F1", "Y"],
+            "input-7": ["Ghost Bait", "B", "B"]
         }
     }
 }
