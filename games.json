@@ -3,66 +3,69 @@
         "header": "https://www.lemon64.com/assets/images/games/screens/aardvark/aardvark_01.png",
         "desc": "Aardvark is a maze-based action game where reflexes and precision are key. You control an aardvark using its long tongue to collect insects from underground tunnels while avoiding aggressive enemies that can cost you a life. Timing your tongue extensions and retractions is essential to clear each level safely.",
         "type": "Collect'em Up",
-        "players": "single",
         "port": "2",
         "inputs": {
-            "input-1": ["Move UP", "W", "JU"],
-            "input-2": ["Move Down", "S", "JD"],
-            "input-3": ["Move Left", "A", "JL"],
-            "input-4": ["Move Right", "D", "JR"],
-            "input-5": ["Retract Tongue", "LSHIFT", "JFR"]
+            "player-1": {
+                "input-1": ["Move UP", "W", "JU"],
+                "input-2": ["Move Down", "S", "JD"],
+                "input-3": ["Move Left", "A", "JL"],
+                "input-4": ["Move Right", "D", "JR"],
+                "input-5": ["Retract Tongue", "LSHIFT", "JFR"]
+            }
         }
     },
     "Fi$tful of Buck$": {
         "header": "https://www.lemon64.com/assets/images/games/screens/a_fistful_of_bucks/a_fistful_of_bucks_01.png",
         "desc": "Fi$tful of Buck$ is an arcade-style western shooter where reflexes and timing are everything. You control a gunslinger navigating through hostile towns and open desert areas, facing waves of enemies intent on stopping you.",
         "type": "Shoot'em Up",
-        "players": "single",
         "port": "2",
         "inputs": {
-            "input-1": ["Move UP / Jump", "W", "JU"],
-            "input-2": ["Move Down / Duck", "S", "JD"],
-            "input-3": ["Move Left", "A", "JL"],
-            "input-4": ["Move Right", "D", "JR"],
-            "input-5": ["Fire / Shoot", "LSHIFT", "JFR"],
-            "input-6": ["Special Action / Dynamite", "SPACE", "SPACE"]
+            "player-1": {
+                "input-1": ["Move UP / Jump", "W", "JU"],
+                "input-2": ["Move Down / Duck", "S", "JD"],
+                "input-3": ["Move Left", "A", "JL"],
+                "input-4": ["Move Right", "D", "JR"],
+                "input-5": ["Fire / Shoot", "LSHIFT", "JFR"],
+                "input-6": ["Special Action / Dynamite", "SPACE", "SPACE"]
+            }
         }
     },
     "Get Off my Garden!": {
         "header": "https://www.lemon64.com/assets/images/games/screens/get_off_my_garden/get_off_my_garden_01.png",
         "desc": "In Get Off My Garden!, you take control of a General Agricultural Robot Functionary (G.A.R.F.) in a side‑view, single‑screen action/shooter setup. Your main goal is to grow six special plants (Aquaronum Upshootus) in your garden while defending them from waves of hostile creatures that try to destroy them.",
         "type": "Shoot'em Up",
-        "players": "single",
         "port": "2",
         "inputs": {
-            "input-1": ["Move UP", "W", "JU"],
-            "input-2": ["Move Down", "S", "JD"],
-            "input-3": ["Move Left", "A", "JL"],
-            "input-4": ["Move Right", "D", "JR"],
-            "input-5": ["Fire / Shoot", "LSHIFT", "JFR"]
+            "player-1": {
+                "input-1": ["Move UP", "W", "JU"],
+                "input-2": ["Move Down", "S", "JD"],
+                "input-3": ["Move Left", "A", "JL"],
+                "input-4": ["Move Right", "D", "JR"],
+                "input-5": ["Fire / Shoot", "LSHIFT", "JFR"]
+            }
         }
     },
     "Ghostbusters": {
         "header": "https://www.lemon64.com/assets/images/games/screens/ghostbusters/ghostbusters_01.png",
         "desc": "You manage a team of paranormal hunters across a city map, responding to ghost sightings and capturing spirits before PK energy reaches critical levels. Action scenes shift to side-view traps where you position both Ghostbusters and guide ghosts into the trap without crossing the streams.",
         "type": "Arcade",
-        "players": "single",
         "port": "1",
         "inputs": {
-            "input-1": ["Move UP", "W", "JU"],
-            "input-2": ["Move Down", "S", "JD"],
-            "input-3": ["Move Left", "A", "JL"],
-            "input-4": ["Move Right", "D", "JR"],
-            "input-5": ["Fire / Place Trap / Accelerate", "LSHIFT", "JFR"],
-            "input-6": ["Choose equipment", "F1", "Y"],
-            "input-7": ["Ghost Bait", "B", "B"]
+            "player-1": {
+                "input-1": ["Move UP", "W", "JU"],
+                "input-2": ["Move Down", "S", "JD"],
+                "input-3": ["Move Left", "A", "JL"],
+                "input-4": ["Move Right", "D", "JR"],
+                "input-5": ["Fire / Place Trap / Accelerate", "LSHIFT", "JFR"],
+                "input-6": ["Choose equipment", "F1", "Y"],
+                "input-7": ["Ghost Bait", "B", "B"]
+            }
         }
     },
     "Pitstop II": {
         "header": "https://www.lemon64.com/assets/images/games/screens/pitstop_2/pitstop_2_01.png",
         "desc": "You pilot an F1 car in split-screen, balancing high-speed racing with resource strategy. Beyond overtaking rivals, you must monitor tire wear and fuel, triggering manual pit stops where you control the crew to refuel and swap tires quickly before jumping back into the heat of the race.",
         "type": "Racing",
-        "players": "multi",
         "port": "2",
         "inputs": {
             "player-1": {
