@@ -30,6 +30,19 @@
             }
         }
     },
+    "Galaga": {
+        "header": "https://www.lemon64.com/assets/images/games/screens/galaga/galaga_01.png",
+        "desc": "A legendary fixed shooter and successor to Galaxian, Galaga tasks you with defending the galaxy against swarms of insect-like aliens. Watch out for Boss Galagas that can use a tractor beam to capture your ship; rescuing it allows you to control two ships at once for double the firepower. Master the enemy patterns and the 'Challenging Stages' to achieve a high score.",
+        "type": "Shoot'em Up",
+        "port": "2",
+        "inputs": {
+            "player-1": {
+                "input-1": ["Move Left", "A", "JL"],
+                "input-2": ["Move Right", "D", "JR"],
+                "input-3": ["Fire / Shoot", "LSHIFT", "JFR"]
+            }
+        }
+    },
     "Get Off my Garden!": {
         "header": "https://www.lemon64.com/assets/images/games/screens/get_off_my_garden/get_off_my_garden_01.png",
         "desc": "In Get Off My Garden!, you take control of a General Agricultural Robot Functionary (G.A.R.F.) in a side‑view, single‑screen action/shooter setup. Your main goal is to grow six special plants (Aquaronum Upshootus) in your garden while defending them from waves of hostile creatures that try to destroy them.",
@@ -115,6 +128,41 @@
                 "input-3": ["Steer Left", "J", "JL"],
                 "input-4": ["Steer Right", "L", "JR"],
                 "input-5": ["Turbo / Pit Action", "RSHIFT", "JFR"]
+            }
+        }
+    },
+    "Space Rogue": {
+        "header": "https://www.lemon64.com/assets/images/games/screens/space_rogue/space_rogue_01.png",
+        "desc": "Space Rogue is a groundbreaking hybrid of 3D space combat and top-down RPG exploration. You are a lone pilot who discovers a derelict Sunbeam-class scout ship, using it to trade, fight, and explore the Far Arm sector. Transition seamlessly from wireframe cockpit dogfights and wormhole navigation to overhead exploration of starbases where you interact with NPCs and upgrade your ship.",
+        "type": "RPG",
+        "port": "2",
+        "inputs": {
+            "player-1": {
+                "input-1": ["Pitch Down / Move UP", "W", "JU"],
+                "input-2": ["Pitch Up / Move Down", "S", "JD"],
+                "input-3": ["Roll Left / Move Left", "A", "JL"],
+                "input-4": ["Roll Right / Move Right", "D", "JR"],
+                "input-5": ["Fire Lasers / Interact", "LSHIFT", "JFR"],
+                "input-6": ["Accelerate", "Z", "Y"],
+                "input-7": ["Decelerate", "X", "X"],
+                "input-8": ["Cycle Targets", "T", "A"],
+                "input-9": ["Navigation Map", "M", "B"]
+            }
+        }
+    },
+    "Star Wars": {
+        "header": "https://www.lemon64.com/assets/images/games/screens/star_wars/star_wars_01.png",
+        "desc": "Based on the 1983 arcade hit, Star Wars puts you in the cockpit of an X-Wing during the assault on the Death Star. The game features three intense phases: dogfighting TIE Fighters in deep space, clearing towers on the Death Star's surface, and the iconic high-speed trench run to deliver the final proton torpedo.",
+        "type": "Action",
+        "port": "2",
+        "inputs": {
+            "player-1": {
+                "input-1": ["Aim UP", "W", "JU"],
+                "input-2": ["Aim Down", "S", "JD"],
+                "input-3": ["Aim Left", "A", "JL"],
+                "input-4": ["Aim Right", "D", "JR"],
+                "input-5": ["Fire Lasers", "LSHIFT", "JFR"],
+                "input-6": ["Shields / Status", "SPACE", "Y"]
             }
         }
     }
