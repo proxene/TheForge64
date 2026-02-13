@@ -14,6 +14,28 @@
             }
         }
     },
+    "Bruce Lee": {
+        "header": "https://www.lemon64.com/assets/images/games/screens/bruce_lee/bruce_lee_01.png",
+        "desc": "In Bruce Lee, you must infiltrate a wizard's tower to claim his legendary fortune. This hybrid of platformer and brawler tasks you with collecting lanterns to open new passages while fighting off a relentless Ninja and the hulking Green Yamo. With its fast-paced action and the ability for a second player to control one of the antagonists, it remains one of the most fun and fluid experiences on the C64.",
+        "type": "Platformer / Fighting",
+        "port": "2",
+        "inputs": {
+            "player-1": {
+                "input-1": ["Jump / Climb Up", "W", "JU"],
+                "input-2": ["Duck / Climb Down", "S", "JD"],
+                "input-3": ["Move Left", "A", "JL"],
+                "input-4": ["Move Right", "D", "JR"],
+                "input-5": ["Attack (Punch/Kick)", "LSHIFT", "JFR"]
+            },
+            "player-2": {
+                "input-1": ["Jump / Climb Up", "I", "JU"],
+                "input-2": ["Duck / Climb Down", "K", "JD"],
+                "input-3": ["Move Left", "J", "JL"],
+                "input-4": ["Move Right", "L", "JR"],
+                "input-5": ["Attack", "RSHIFT", "JFR"]
+            }
+        }
+    },
     "Bubble Bobble": {
         "header": "https://www.lemon64.com/assets/images/games/screens/bubble_bobble/bubble_bobble_01.png",
         "desc": "Control the bubble-blowing dragons Bub and Bob in this legendary arcade platformer. Your mission is to rescue their girlfriends by navigating 100 levels of monsters. Trap enemies in bubbles and pop them to progress, while collecting fruit and power-ups for high scores. Cooperative play is the heart of the experience, as you work together to discover hidden secrets and the true ending.",
