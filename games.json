@@ -4,6 +4,7 @@
         "desc": "Aardvark is a maze-based action game where reflexes and precision are key. You control an aardvark using its long tongue to collect insects from underground tunnels while avoiding aggressive enemies that can cost you a life. Timing your tongue extensions and retractions is essential to clear each level safely.",
         "type": "Collect'em Up",
         "port": "2",
+        "players": "1",
         "inputs": {
             "player-1": {
                 "input-1": ["Move UP", "W", "JU"],
@@ -19,6 +20,7 @@
         "desc": "In Bruce Lee, you must infiltrate a wizard's tower to claim his legendary fortune. This hybrid of platformer and brawler tasks you with collecting lanterns to open new passages while fighting off a relentless Ninja and the hulking Green Yamo. With its fast-paced action and the ability for a second player to control one of the antagonists, it remains one of the most fun and fluid experiences on the C64.",
         "type": "Platformer / Fighting",
         "port": "2",
+        "players": "2",
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / Climb Up", "W", "JU"],
@@ -32,7 +34,7 @@
                 "input-2": ["Duck / Climb Down", "K", "JD"],
                 "input-3": ["Move Left", "J", "JL"],
                 "input-4": ["Move Right", "L", "JR"],
-                "input-5": ["Attack", "RSHIFT", "JFR"]
+                "input-5": ["Attack (Punch/Kick)", "RSHIFT", "JFR"]
             }
         }
     },
@@ -41,6 +43,7 @@
         "desc": "Control the bubble-blowing dragons Bub and Bob in this legendary arcade platformer. Your mission is to rescue their girlfriends by navigating 100 levels of monsters. Trap enemies in bubbles and pop them to progress, while collecting fruit and power-ups for high scores. Cooperative play is the heart of the experience, as you work together to discover hidden secrets and the true ending.",
         "type": "Platformer",
         "port": "2",
+        "players": "2",
         "inputs": {
             "player-1": {
                 "input-1": ["Jump", "W", "JU"],
@@ -61,6 +64,7 @@
         "desc": "Fi$tful of Buck$ is an arcade-style western shooter where reflexes and timing are everything. You control a gunslinger navigating through hostile towns and open desert areas, facing waves of enemies intent on stopping you.",
         "type": "Shoot'em Up",
         "port": "2",
+        "players": "1",
         "inputs": {
             "player-1": {
                 "input-1": ["Move UP / Jump", "W", "JU"],
@@ -77,6 +81,7 @@
         "desc": "A legendary fixed shooter and successor to Galaxian, Galaga tasks you with defending the galaxy against swarms of insect-like aliens. Watch out for Boss Galagas that can use a tractor beam to capture your ship; rescuing it allows you to control two ships at once for double the firepower. Master the enemy patterns and the 'Challenging Stages' to achieve a high score.",
         "type": "Shoot'em Up",
         "port": "2",
+        "players": "2",
         "inputs": {
             "player-1": {
                 "input-1": ["Move Left", "A", "JL"],
@@ -90,6 +95,7 @@
         "desc": "In Get Off My Garden!, you take control of a General Agricultural Robot Functionary (G.A.R.F.) in a side‑view, single‑screen action/shooter setup. Your main goal is to grow six special plants (Aquaronum Upshootus) in your garden while defending them from waves of hostile creatures that try to destroy them.",
         "type": "Shoot'em Up",
         "port": "2",
+        "players": "1",
         "inputs": {
             "player-1": {
                 "input-1": ["Move UP", "W", "JU"],
@@ -105,6 +111,7 @@
         "desc": "You manage a team of paranormal hunters across a city map, responding to ghost sightings and capturing spirits before PK energy reaches critical levels. Action scenes shift to side-view traps where you position both Ghostbusters and guide ghosts into the trap without crossing the streams.",
         "type": "Arcade",
         "port": "1",
+        "players": "1",
         "inputs": {
             "player-1": {
                 "input-1": ["Move UP", "W", "JU"],
@@ -122,6 +129,7 @@
         "desc": "Gremlins is an action game based on the 1984 film. In the first stage, you play as Billy Peltzer, running across the screen to catch falling Mogwai before they reach the food and transform. In the second stage, the Mogwai have turned into Gremlins and are hiding behind refrigerators; you must eliminate them with a sword before they multiply and swarm the screen. It's a high-speed test of reflexes across two distinct challenges.",
         "type": "Action",
         "port": "2",
+        "players": "2",
         "inputs": {
             "player-1": {
                 "input-1": ["Move UP", "W", "JU"],
@@ -137,6 +145,7 @@
         "desc": "IK+ is the definitive martial arts experience on the C64, featuring fast-paced three-way karate matches. Unlike traditional fighters, you must outscore two opponents simultaneously to avoid elimination. The game is famous for its fluid animation, iconic Rob Hubbard soundtrack, and bonus rounds involving deflecting bouncing balls or kicking away bombs to stay in the tournament.",
         "type": "Fighting",
         "port": "2",
+        "players": "2",
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / High Attack", "W", "JU"],
@@ -161,6 +170,7 @@
         "desc": "Laser Squad is a seminal tactical turn-based combat game. You command a small squad of troopers through various missions, from assassinations to rescue operations. Each unit has limited Action Points (AP) to spend on movement, aiming, and firing. The game's depth lies in its armor penetration mechanics, line-of-sight rules, and morale system, laying the groundwork for the future X-COM series.",
         "type": "Strategy",
         "port": "2",
+        "players": "2",
         "inputs": {
             "player-1": {
                 "input-1": ["Move Cursor UP", "W", "JU"],
@@ -179,6 +189,7 @@
         "desc": "Maniac Mansion is the revolutionary adventure game that introduced the SCUMM system. You lead a group of three teenagers infiltrating Dr. Fred's mansion to rescue Sandy. The game features multiple playable characters with unique abilities, several possible endings, and quirky humor, all managed through an action-verb interface.",
         "type": "Adventure",
         "port": "1",
+        "players": "1",
         "inputs": {
             "player-1": {
                 "input-1": ["Move Cursor UP", "W", "JU"],
@@ -197,6 +208,7 @@
         "desc": "Nobby the Aardvark is a visually stunning multi-stage platformer. You guide Nobby through diverse levels—ranging from traditional jumping puzzles to maze-like tunnels and even flight sequences—on his quest to reach Antropia. Armed with a tongue attack and collectible ants for ammo, you must navigate tricky terrain and defeat surreal enemies in one of the C64's most polished late-era titles.",
         "type": "Platformer",
         "port": "2",
+        "players": "1",
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / Fly Up", "W", "JU"],
@@ -213,6 +225,7 @@
         "desc": "In Pitfall!, you guide Pitfall Harry through a perilous jungle to recover 32 treasures within a 20-minute time limit. You must swing on vines, leap over pits, and avoid deadly obstacles like scorpions, crocodiles, and rolling logs. Navigating both the surface and the underground tunnels is key to finding the most efficient path through the 255 screens of adventure.",
         "type": "Platformer",
         "port": "2",
+        "players": "1",
         "inputs": {
             "player-1": {
                 "input-1": ["Climb Up", "W", "JU"],
@@ -228,6 +241,7 @@
         "desc": "You pilot an F1 car in split-screen, balancing high-speed racing with resource strategy. Beyond overtaking rivals, you must monitor tire wear and fuel, triggering manual pit stops where you control the crew to refuel and swap tires quickly before jumping back into the heat of the race.",
         "type": "Racing",
         "port": "2",
+        "players": "2",
         "inputs": {
             "player-1": {
                 "input-1": ["Accelerate", "W", "JU"],
@@ -250,6 +264,7 @@
         "desc": "In Prince of Persia, you have only 60 minutes to escape the Sultan's dungeons and stop the evil Vizier Jaffar. Renowned for its lifelike rotoscoped animation, the game requires pixel-perfect jumping, sword fighting, and trap navigation. You must carefully explore the palace's depths, find a sword, and overcome guards and skeletons to rescue the Princess before time runs out.",
         "type": "Platformer",
         "port": "2",
+        "players": "1",
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / Block / Climb Up", "W", "JU"],
@@ -266,6 +281,7 @@
         "desc": "Sam's Journey is a massive, modern platforming epic for the C64. Explore a vast world with over 30 levels and thousands of screens. Sam can change his abilities by finding different costumes, turning him into a pirate, a vampire, or even a ninja. With its colorful graphics, smooth scrolling, and map system, it's a testament to what the C64 hardware can achieve decades after its release.",
         "type": "Platformer",
         "port": "2",
+        "players": "1",
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / Climb Up", "W", "JU"],
@@ -283,6 +299,7 @@
         "desc": "A technical masterpiece for the C64, this faithful port of the Master System original brings Sega's mascot to the Commodore. Race through iconic zones like Green Hill and Bridge Zone, collecting rings and freeing animals from Dr. Robotnik's robots. Thanks to the REU memory expansion, the game features smooth scrolling and high-speed gameplay that was long considered impossible on this hardware.",
         "type": "Platformer",
         "port": "2",
+        "players": "1",
         "inputs": {
             "player-1": {
                 "input-1": ["Look Up / Jump", "W", "JU"],
@@ -299,6 +316,7 @@
         "desc": "Space Rogue is a groundbreaking hybrid of 3D space combat and top-down RPG exploration. You are a lone pilot who discovers a derelict Sunbeam-class scout ship, using it to trade, fight, and explore the Far Arm sector. Transition seamlessly from wireframe cockpit dogfights and wormhole navigation to overhead exploration of starbases where you interact with NPCs and upgrade your ship.",
         "type": "RPG",
         "port": "2",
+        "players": "1",
         "inputs": {
             "player-1": {
                 "input-1": ["Pitch Down / Move UP", "W", "JU"],
@@ -318,6 +336,7 @@
         "desc": "Based on the 1983 arcade hit, Star Wars puts you in the cockpit of an X-Wing during the assault on the Death Star. The game features three intense phases: dogfighting TIE Fighters in deep space, clearing towers on the Death Star's surface, and the iconic high-speed trench run to deliver the final proton torpedo.",
         "type": "Action",
         "port": "2",
+        "players": "1",
         "inputs": {
             "player-1": {
                 "input-1": ["Aim UP", "W", "JU"],
