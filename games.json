@@ -95,6 +95,63 @@
             }
         }
     },
+    "Gremlins": {
+        "header": "https://www.lemon64.com/assets/images/games/screens/gremlins/gremlins_01.png",
+        "desc": "Gremlins is an action game based on the 1984 film. In the first stage, you play as Billy Peltzer, running across the screen to catch falling Mogwai before they reach the food and transform. In the second stage, the Mogwai have turned into Gremlins and are hiding behind refrigerators; you must eliminate them with a sword before they multiply and swarm the screen. It's a high-speed test of reflexes across two distinct challenges.",
+        "type": "Action",
+        "port": "2",
+        "inputs": {
+            "player-1": {
+                "input-1": ["Move UP", "W", "JU"],
+                "input-2": ["Move Down", "S", "JD"],
+                "input-3": ["Move Left", "A", "JL"],
+                "input-4": ["Move Right", "D", "JR"],
+                "input-5": ["Action / Attack", "LSHIFT", "JFR"]
+            }
+        }
+    },
+    "IK+": {
+        "header": "https://www.lemon64.com/assets/images/games/screens/ik_plus/ik_plus_11.png",
+        "desc": "IK+ is the definitive martial arts experience on the C64, featuring fast-paced three-way karate matches. Unlike traditional fighters, you must outscore two opponents simultaneously to avoid elimination. The game is famous for its fluid animation, iconic Rob Hubbard soundtrack, and bonus rounds involving deflecting bouncing balls or kicking away bombs to stay in the tournament.",
+        "type": "Fighting",
+        "port": "2",
+        "inputs": {
+            "player-1": {
+                "input-1": ["Jump / High Attack", "W", "JU"],
+                "input-2": ["Crouch / Low Attack", "S", "JD"],
+                "input-3": ["Move Left / Block", "A", "JL"],
+                "input-4": ["Move Right / Block", "D", "JR"],
+                "input-5": ["Modifier / Fire Button", "LSHIFT", "JFR"],
+                "input-6": ["Abort Game", "Q", "Y"],
+                "input-7": ["Pause Game", "P", "X"]
+            },
+            "player-2": {
+                "input-1": ["Jump / High Attack", "I", "JU"],
+                "input-2": ["Crouch / Low Attack", "K", "JD"],
+                "input-3": ["Move Left / Block", "J", "JL"],
+                "input-4": ["Move Right / Block", "L", "JR"],
+                "input-5": ["Modifier / Fire Button", "RSHIFT", "JFR"]
+            }
+        }
+    },
+    "Laser Squad": {
+        "header": "https://www.lemon64.com/assets/images/games/screens/laser_squad/laser_squad_02.png",
+        "desc": "Laser Squad is a seminal tactical turn-based combat game. You command a small squad of troopers through various missions, from assassinations to rescue operations. Each unit has limited Action Points (AP) to spend on movement, aiming, and firing. The game's depth lies in its armor penetration mechanics, line-of-sight rules, and morale system, laying the groundwork for the future X-COM series.",
+        "type": "Strategy / Tactical",
+        "port": "2",
+        "inputs": {
+            "player-1": {
+                "input-1": ["Move Cursor UP", "W", "JU"],
+                "input-2": ["Move Cursor Down", "S", "JD"],
+                "input-3": ["Move Cursor Left", "A", "JL"],
+                "input-4": ["Move Cursor Right", "D", "JR"],
+                "input-5": ["Select / Action", "LSHIFT", "JFR"],
+                "input-6": ["Next Unit", "SPACE", "Y"],
+                "input-7": ["Selection Menu", "M", "X"],
+                "input-8": ["End Turn", "E", "A"]
+            }
+        }
+    },
     "Maniac Mansion": {
         "header": "https://www.lemon64.com/assets/images/games/screens/maniac_mansion/maniac_mansion_01.png",
         "desc": "Maniac Mansion is the revolutionary adventure game that introduced the SCUMM system. You lead a group of three teenagers infiltrating Dr. Fred's mansion to rescue Sandy. The game features multiple playable characters with unique abilities, several possible endings, and quirky humor, all managed through an action-verb interface.",
@@ -163,6 +220,39 @@
                 "input-3": ["Steer Left", "J", "JL"],
                 "input-4": ["Steer Right", "L", "JR"],
                 "input-5": ["Turbo / Pit Action", "RSHIFT", "JFR"]
+            }
+        }
+    },
+    "Prince of Persia": {
+        "header": "https://www.lemon64.com/assets/images/games/screens/prince_of_persia/prince_of_persia_01.png",
+        "desc": "In Prince of Persia, you have only 60 minutes to escape the Sultan's dungeons and stop the evil Vizier Jaffar. Renowned for its lifelike rotoscoped animation, the game requires pixel-perfect jumping, sword fighting, and trap navigation. You must carefully explore the palace's depths, find a sword, and overcome guards and skeletons to rescue the Princess before time runs out.",
+        "type": "Platformer",
+        "port": "2",
+        "inputs": {
+            "player-1": {
+                "input-1": ["Jump / Block / Climb Up", "W", "JU"],
+                "input-2": ["Crouch / Duck / Climb Down", "S", "JD"],
+                "input-3": ["Move Left", "A", "JL"],
+                "input-4": ["Move Right", "D", "JR"],
+                "input-5": ["Attack / Drink / Grab Ledge", "LSHIFT", "JFR"],
+                "input-6": ["Precise Step (Walk)", "SPACE", "Y"]
+            }
+        }
+    },
+    "Sam's Journey": {
+        "header": "https://www.lemon64.com/assets/images/games/screens/sams_journey/sams_journey_02.png",
+        "desc": "Sam's Journey is a massive, modern platforming epic for the C64. Explore a vast world with over 30 levels and thousands of screens. Sam can change his abilities by finding different costumes, turning him into a pirate, a vampire, or even a ninja. With its colorful graphics, smooth scrolling, and map system, it's a testament to what the C64 hardware can achieve decades after its release.",
+        "type": "Platformer",
+        "port": "2",
+        "inputs": {
+            "player-1": {
+                "input-1": ["Jump / Climb Up", "W", "JU"],
+                "input-2": ["Duck / Climb Down", "S", "JD"],
+                "input-3": ["Move Left", "A", "JL"],
+                "input-4": ["Move Right", "D", "JR"],
+                "input-5": ["Fire / Action", "LSHIFT", "JFR"],
+                "input-6": ["Pause / Map", "P", "Y"],
+                "input-7": ["Quick Save", "F5", "A"]
             }
         }
     },
