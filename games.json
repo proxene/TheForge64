@@ -137,7 +137,7 @@
     "Laser Squad": {
         "header": "https://www.lemon64.com/assets/images/games/screens/laser_squad/laser_squad_02.png",
         "desc": "Laser Squad is a seminal tactical turn-based combat game. You command a small squad of troopers through various missions, from assassinations to rescue operations. Each unit has limited Action Points (AP) to spend on movement, aiming, and firing. The game's depth lies in its armor penetration mechanics, line-of-sight rules, and morale system, laying the groundwork for the future X-COM series.",
-        "type": "Strategy / Tactical",
+        "type": "Strategy",
         "port": "2",
         "inputs": {
             "player-1": {
