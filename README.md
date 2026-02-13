@@ -25,8 +25,11 @@ compatible with the C64 Mini & Maxi systems.
 
 <br />
 
-## 📌 How to Request a New Game
-
+<details>
+<summary>📌 How to Request a New Game</summary>
+    
+<br>
+    
 If you would like to add a new game to the project:
 
 1. Create a new **GitHub Issue**
@@ -103,6 +106,24 @@ Multiplayer Example (Two Controllers)
 
 <br />
 
+# 🕹️ C64 Slot (Mapping ID)
+| ID   | Description      |
+|-------|------------------|
+| JU    | Joystick Up      |
+| JD    | Joystick Down    |
+| JL    | Joystick Left    |
+| JR    | Joystick Right   |
+| JFL   | Fire Left        |
+| JFR   | Fire Right       |
+| TL    | Top Left         |
+| TR    | Top Right        |
+| Y     | Bottom Button 1  |
+| X     | Bottom Button 2  |
+| A     | Bottom Button 3  |
+| B     | Bottom Button 4  |
+
+<br />
+
 ## ⚠️ Important Notes
 
 Make sure your JSON is valid.<br />
@@ -110,6 +131,8 @@ Do not modify existing game entries.<br />
 One game per issue.
 
 Submissions without the correct label or JSON format may be ignored.
+    
+</details>
 
 <br />
 
