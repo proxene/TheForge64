@@ -33,14 +33,16 @@ compatible with the C64 Mini & Maxi systems.
 If you would like to add a new game to the project:
 
 1. Create a new **GitHub Issue**
-2. Add the label:
+5. One game per issue.
+2. Add the label: would like to be added.
 3. Include the completed JSON structure below inside the Issue description.
+4. Make sure your JSON is valid.
 
-⚠️ Only issues containing the correct label and valid JSON will be reviewed.
+⚠️ Submissions without the correct label or JSON format may be ignored.
 
 <br />
 
-## 📝 Required JSON Format
+### 📝 Required JSON Format
 
 Copy, complete, and paste the following JSON into your Issue:
 
@@ -94,7 +96,7 @@ Multiplayer Example (Two Controllers)
 
 <br />
 
-## 📖 Field Explanation
+### 📖 Field Explanation
 
 - `Game Title` Name of the game.
 - `header` URL to the game's main image.
@@ -106,7 +108,7 @@ Multiplayer Example (Two Controllers)
 
 <br />
 
-# 🕹️ C64 Slot (Mapping ID)
+### 🕹️ C64 Slot (Mapping ID)
 | ID   | Description      |
 |-------|------------------|
 | JU    | Joystick Up      |
@@ -121,16 +123,6 @@ Multiplayer Example (Two Controllers)
 | X     | Bottom Button 2  |
 | A     | Bottom Button 3  |
 | B     | Bottom Button 4  |
-
-<br />
-
-## ⚠️ Important Notes
-
-Make sure your JSON is valid.<br />
-Do not modify existing game entries.<br />
-One game per issue.
-
-Submissions without the correct label or JSON format may be ignored.
     
 </details>
 
