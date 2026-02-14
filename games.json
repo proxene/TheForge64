@@ -28,9 +28,9 @@
                 "input-3": ["Move Left", "JL", "JL"],
                 "input-4": ["Move Right", "JR", "JR"],
                 "input-5": ["Attack (Punch/Kick)", "JF", "JFR"],
-                "input-6": ["Select Players", "F3", "X"],
-                "input-7": ["Select Gameplay", "F5", "A"],
-                "input-8": ["Start Game", "F7", "B"]
+                "input-6": ["Select Players", "F3", "A"],
+                "input-7": ["Select Gameplay", "F5", "B"],
+                "input-8": ["Start Game", "F7", "C"]
             },
             "player-2": {
                 "input-1": ["Jump / Climb Up", "JU", "JU"],
@@ -49,16 +49,16 @@
         "players": "2",
         "inputs": {
             "player-1": {
-                "input-1": ["Jump", "W", "JU"],
-                "input-2": ["Move Left", "A", "JL"],
-                "input-3": ["Move Right", "D", "JR"],
-                "input-4": ["Fire / Blow Bubble", "LSHIFT", "JFR"]
+                "input-1": ["Jump", "JU", "JU"],
+                "input-2": ["Move Left", "JL", "JL"],
+                "input-3": ["Move Right", "JR", "JR"],
+                "input-4": ["Fire / Blow Bubble", "JF", "JFR"]
             },
             "player-2": {
-                "input-1": ["Jump", "I", "JU"],
-                "input-2": ["Move Left", "J", "JL"],
-                "input-3": ["Move Right", "L", "JR"],
-                "input-4": ["Fire / Blow Bubble", "RSHIFT", "JFR"]
+                "input-1": ["Jump", "JU", "JU"],
+                "input-2": ["Move Left", "JL", "JL"],
+                "input-3": ["Move Right", "JR", "JR"],
+                "input-4": ["Fire / Blow Bubble", "JF", "JFR"]
             }
         }
     },
@@ -66,22 +66,45 @@
         "header": "https://www.lemon64.com/assets/images/games/screens/dig_dug/dig_dug_01.png",
         "desc": "The 1983 Atarisoft classic brings the hit arcade game to the C64. As Dig Dug, you must tunnel through the earth and eliminate the Pookas and Fygars that lurk underground. You can either pump them full of air until they explode or drop heavy rocks to crush them. This version is a nostalgic staple of the C64 library, known for its catchy music and addictive gameplay loop.",
         "type": "Action",
+        "port": "1",
+        "players": "2",
+        "inputs": {
+            "player-1": {
+                "input-1": ["Move UP", "JU", "JU"],
+                "input-2": ["Move Down", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Pump / Fire", "JF", "JFR"]
+            },
+            "player-2": {
+                "input-1": ["Move UP", "JU", "JU"],
+                "input-2": ["Move Down", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Pump / Fire", "JF", "JFR"]
+            }
+        }
+    },
+    "Double Dragon": {
+        "header": "https://www.lemon64.com/assets/images/games/screens/double_dragon/double_dragon_01.png",
+        "desc": "The quintessential beat 'em up comes to the C64. Brothers Billy and Jimmy Lee take to the streets to rescue Marian from the Black Warriors gang. Fight through urban slums, factories, and forests using punches, kicks, and weapons dropped by enemies. The game is best enjoyed with a friend in simultaneous cooperative mode, cleaning up the streets together.",
+        "type": "Beat 'em Up",
         "port": "2",
         "players": "2",
         "inputs": {
             "player-1": {
-                "input-1": ["Move UP", "W", "JU"],
-                "input-2": ["Move Down", "S", "JD"],
-                "input-3": ["Move Left", "A", "JL"],
-                "input-4": ["Move Right", "D", "JR"],
-                "input-5": ["Pump / Fire", "LSHIFT", "JFR"]
+                "input-1": ["Move Up", "JU", "JU"],
+                "input-2": ["Move Down", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Attack / Punch", "JF", "JFR"]
             },
             "player-2": {
-                "input-1": ["Move UP", "I", "JU"],
-                "input-2": ["Move Down", "K", "JD"],
-                "input-3": ["Move Left", "J", "JL"],
-                "input-4": ["Move Right", "L", "JR"],
-                "input-5": ["Pump / Fire", "RSHIFT", "JFR"]
+                "input-1": ["Move Up", "JU", "JU"],
+                "input-2": ["Move Down", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Attack / Punch", "JF", "JFR"]
             }
         }
     },
@@ -93,12 +116,12 @@
         "players": "1",
         "inputs": {
             "player-1": {
-                "input-1": ["Move UP / Jump", "W", "JU"],
-                "input-2": ["Move Down / Duck", "S", "JD"],
-                "input-3": ["Move Left", "A", "JL"],
-                "input-4": ["Move Right", "D", "JR"],
-                "input-5": ["Fire / Shoot", "LSHIFT", "JFR"],
-                "input-6": ["Special Action / Dynamite", "SPACE", "SPACE"]
+                "input-1": ["Move UP / Jump", "JU", "JU"],
+                "input-2": ["Move Down / Duck", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Fire / Shoot", "JF", "JFR"],
+                "input-6": ["Special Action / Dynamite", "SPACE", "TR"]
             }
         }
     },
@@ -399,6 +422,22 @@
                 "input-5": ["Fire / Action", "LSHIFT", "JFR"],
                 "input-6": ["Pause / Map", "P", "Y"],
                 "input-7": ["Quick Save", "F5", "A"]
+            }
+        }
+    },
+    "Shinobi": {
+        "header": "https://www.lemon64.com/assets/images/games/screens/shinobi/shinobi_22.png",
+        "desc": "As the master ninja Joe Musashi, you must rescue the kidnapped children of your clan from the criminal organization Zeed. This faithful port features classic side-scrolling action where you use shurikens for distance and a katana for close combat. Master the use of Ninja Magic to clear screens of enemies and navigate through multi-layered stages to reach the final showdown.",
+        "type": "Platformer",
+        "port": "2",
+        "players": "1",
+        "inputs": {
+            "player-1": {
+                "input-1": ["Jump / Move Up", "JU", "JU"],
+                "input-2": ["Crouch / Move Down", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Attack (Shuriken/Katana)", "JF", "JFR"]
             }
         }
     },
