@@ -211,46 +211,39 @@
         "desc": "Take control of Sir Arthur in this uncompromisingly difficult arcade port. You must fight through hordes of zombies, demons, and undead knights to rescue the Princess from the Demon King. Arthur can collect various projectile weapons like lances and daggers, but one hit will shatter his armor, leaving him to finish the quest in his boxers. It is a masterpiece of dark fantasy atmosphere and unforgiving challenge.",
         "type": "Platformer",
         "port": "2",
-        "players": "2",
+        "players": "1",
         "inputs": {
             "player-1": {
-                "input-1": ["Jump / Climb Up", "W", "JU"],
-                "input-2": ["Crouch / Climb Down", "S", "JD"],
-                "input-3": ["Move Left", "A", "JL"],
-                "input-4": ["Move Right", "D", "JR"],
-                "input-5": ["Fire / Throw Weapon", "LSHIFT", "JFR"]
-            },
-            "player-2": {
-                "input-1": ["Jump / Climb Up", "I", "JU"],
-                "input-2": ["Crouch / Climb Down", "K", "JD"],
-                "input-3": ["Move Left", "J", "JL"],
-                "input-4": ["Move Right", "L", "JR"],
-                "input-5": ["Fire / Throw Weapon", "RSHIFT", "JFR"]
+                "input-1": ["Jump / Climb Up", "JU", "JU"],
+                "input-2": ["Crouch / Climb Down", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Fire / Throw Weapon", "JF", "TR"]
             }
         }
     },
     "Guns 'n' Ghosts": {
         "header": "https://www.lemon64.com/assets/images/games/screens/guns_n_ghosts/guns_n_ghosts_05.png",
         "desc": "In Guns 'n' Ghosts, you play as paranormal investigators Trev and Justin in a fast-paced battle against the undead. This modern homebrew hit features single-screen arena combat where you must blast waves of ghosts, skeletons, and bosses. With its smooth animations, power-ups, and a fantastic simultaneous two-player mode, it's a perfect blend of retro arcade feel and modern polish.",
-        "type": "Action / Arena",
+        "type": "Action",
         "port": "2",
         "players": "2",
         "inputs": {
             "player-1": {
-                "input-1": ["Move UP", "W", "JU"],
-                "input-2": ["Move Down", "S", "JD"],
-                "input-3": ["Move Left", "A", "JL"],
-                "input-4": ["Move Right", "D", "JR"],
-                "input-5": ["Fire Weapon", "LSHIFT", "JFR"],
-                "input-6": ["Use Special / Bomb", "SPACE", "Y"]
+                "input-1": ["Jump / Climb Up", "JU", "JU"],
+                "input-2": ["Crouch / Climb Down", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Fire / Throw Weapon", "JF", "JFR"],
+                "input-6": ["Use Special / Bomb", "SPACE", "TR"]
             },
             "player-2": {
-                "input-1": ["Move UP", "I", "JU"],
-                "input-2": ["Move Down", "K", "JD"],
-                "input-3": ["Move Left", "J", "JL"],
-                "input-4": ["Move Right", "L", "JR"],
-                "input-5": ["Fire Weapon", "RSHIFT", "JFR"],
-                "input-6": ["Use Special / Bomb", "CTRL", "Y"]
+                "input-1": ["Jump / Climb Up", "JU", "JU"],
+                "input-2": ["Crouch / Climb Down", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Fire / Throw Weapon", "JF", "JFR"],
+                "input-6": ["Use Special / Bomb", "SPACE", "TR"]
             }
         }
     },
@@ -262,11 +255,15 @@
         "players": "2",
         "inputs": {
             "player-1": {
-                "input-1": ["Move UP", "W", "JU"],
-                "input-2": ["Move Down", "S", "JD"],
-                "input-3": ["Move Left", "A", "JL"],
-                "input-4": ["Move Right", "D", "JR"],
-                "input-5": ["Action / Attack", "LSHIFT", "JFR"]
+                "input-1": ["Move Up", "JU", "JU"],
+                "input-2": ["Move Down", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Fire / Attack with Sword", "JF", "JFR"],
+                "input-6": ["Camera Flash (Stun Enemies)", "F7", "TR"],
+                "input-7": ["Select Players", "F3", "A"],
+                "input-8": ["Select Difficulty", "F5", "B"],
+                "input-9": ["Start Game", "F1", "C"]
             }
         }
     },
