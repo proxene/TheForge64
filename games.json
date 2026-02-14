@@ -120,8 +120,7 @@
                 "input-2": ["Move Down / Duck", "JD", "JD"],
                 "input-3": ["Move Left", "JL", "JL"],
                 "input-4": ["Move Right", "JR", "JR"],
-                "input-5": ["Fire / Shoot", "JF", "JFR"],
-                "input-6": ["Special Action / Dynamite", "SPACE", "TR"]
+                "input-5": ["Fire / Shoot", "JF", "JFR"]
             }
         }
     },
