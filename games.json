@@ -133,9 +133,9 @@
         "players": "2",
         "inputs": {
             "player-1": {
-                "input-1": ["Move Left", "A", "JL"],
-                "input-2": ["Move Right", "D", "JR"],
-                "input-3": ["Fire / Shoot", "LSHIFT", "JFR"]
+                "input-1": ["Move Left", "JL", "JL"],
+                "input-2": ["Move Right", "JR", "JR"],
+                "input-3": ["Fire / Shoot", "JF", "JFR"]
             }
         }
     },
@@ -147,14 +147,14 @@
         "players": "2",
         "inputs": {
             "player-1": {
-                "input-1": ["Move Left", "A", "JL"],
-                "input-2": ["Move Right", "D", "JR"],
-                "input-3": ["Fire / Shoot", "LSHIFT", "JFR"]
+                "input-1": ["Move Left", "JL", "JL"],
+                "input-2": ["Move Right", "JR", "JR"],
+                "input-3": ["Fire / Shoot", "JF", "JFR"]
             },
             "player-2": {
-                "input-1": ["Move Left", "J", "JL"],
-                "input-2": ["Move Right", "L", "JR"],
-                "input-3": ["Fire / Shoot", "RSHIFT", "JFR"]
+                "input-1": ["Move Left", "JL", "JL"],
+                "input-2": ["Move Right", "JR", "JR"],
+                "input-3": ["Fire / Shoot", "JF", "JFR"]
             }
         }
     },
@@ -166,10 +166,11 @@
         "players": "1",
         "inputs": {
             "player-1": {
-                "input-1": ["Move Left", "A", "JL"],
-                "input-2": ["Move Right", "D", "JR"],
-                "input-3": ["Fire / Shoot", "LSHIFT", "JFR"],
-                "input-4": ["Pause", "P", "Y"]
+                "input-1": ["Move Left", "JL", "JL"],
+                "input-2": ["Move Right", "JR", "JR"],
+                "input-3": ["Fire / Shoot", "JF", "JFR"],
+                "input-4": ["Launch Shuttle (Bonus)", "TR", "TR"]
+                "input-5": ["Pause", "PAUSE", "A"]
             }
         }
     },
@@ -202,8 +203,8 @@
                 "input-3": ["Move Left", "JL", "JL"],
                 "input-4": ["Move Right", "JR", "JR"],
                 "input-5": ["Fire / Place Trap / Accelerate", "JF", "JFR"],
-                "input-6": ["Choose equipment", "F1", "X"],
-                "input-7": ["Ghost Bait", "B", "A"]
+                "input-6": ["Choose equipment", "F1", "A"],
+                "input-7": ["Ghost Bait", "B", "B"]
             }
         }
     },
