@@ -24,7 +24,7 @@
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / Climb Up", "JU", "JU"],
-                "input-2": ["Duck / Climb Down", "JD", "JD"],
+                "input-2": ["Crouch / Climb Down", "JD", "JD"],
                 "input-3": ["Move Left", "JL", "JL"],
                 "input-4": ["Move Right", "JR", "JR"],
                 "input-5": ["Attack (Punch/Kick)", "JF", "JFR"],
@@ -34,7 +34,7 @@
             },
             "player-2": {
                 "input-1": ["Jump / Climb Up", "JU", "JU"],
-                "input-2": ["Duck / Climb Down", "JD", "JD"],
+                "input-2": ["Crouch / Climb Down", "JD", "JD"],
                 "input-3": ["Move Left", "JL", "JL"],
                 "input-4": ["Move Right", "JR", "JR"],
                 "input-5": ["Attack (Punch/Kick)", "JF", "JFR"]
@@ -117,7 +117,7 @@
         "inputs": {
             "player-1": {
                 "input-1": ["Move UP / Jump", "JU", "JU"],
-                "input-2": ["Move Down / Duck", "JD", "JD"],
+                "input-2": ["Move Down / Crouch", "JD", "JD"],
                 "input-3": ["Move Left", "JL", "JL"],
                 "input-4": ["Move Right", "JR", "JR"],
                 "input-5": ["Fire / Shoot", "JF", "JFR"]
@@ -230,7 +230,7 @@
         "players": "2",
         "inputs": {
             "player-1": {
-                "input-1": ["Jump / Climb Up", "JU", "JU"],
+                "input-1": ["Jump / Climb UP", "JU", "JU"],
                 "input-2": ["Crouch / Climb Down", "JD", "JD"],
                 "input-3": ["Move Left", "JL", "JL"],
                 "input-4": ["Move Right", "JR", "JR"],
@@ -238,7 +238,7 @@
                 "input-6": ["Use Special / Bomb", "SPACE", "TR"]
             },
             "player-2": {
-                "input-1": ["Jump / Climb Up", "JU", "JU"],
+                "input-1": ["Jump / Climb UP", "JU", "JU"],
                 "input-2": ["Crouch / Climb Down", "JD", "JD"],
                 "input-3": ["Move Left", "JL", "JL"],
                 "input-4": ["Move Right", "JR", "JR"],
@@ -255,7 +255,7 @@
         "players": "2",
         "inputs": {
             "player-1": {
-                "input-1": ["Move Up", "JU", "JU"],
+                "input-1": ["Move UP", "JU", "JU"],
                 "input-2": ["Move Down", "JD", "JD"],
                 "input-3": ["Move Left", "JL", "JL"],
                 "input-4": ["Move Right", "JR", "JR"],
@@ -275,20 +275,21 @@
         "players": "2",
         "inputs": {
             "player-1": {
-                "input-1": ["Jump / High Attack", "W", "JU"],
-                "input-2": ["Crouch / Low Attack", "S", "JD"],
-                "input-3": ["Move Left / Block", "A", "JL"],
-                "input-4": ["Move Right / Block", "D", "JR"],
-                "input-5": ["Modifier / Fire Button", "LSHIFT", "JFR"],
-                "input-6": ["Abort Game", "Q", "Y"],
-                "input-7": ["Pause Game", "P", "X"]
+                "input-1": ["Jump", "JU", "JU"],
+                "input-2": ["Crouch", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Punch", "JF", "JFR"],
+                "input-6": ["F1", "1 Player VS 2 AI", "A"],
+                "input-7": ["F3", "2 Players VS 1 AI", "B"],
+                "input-8": ["F7", "Toggle Music", "C"]
             },
             "player-2": {
-                "input-1": ["Jump / High Attack", "I", "JU"],
-                "input-2": ["Crouch / Low Attack", "K", "JD"],
-                "input-3": ["Move Left / Block", "J", "JL"],
-                "input-4": ["Move Right / Block", "L", "JR"],
-                "input-5": ["Modifier / Fire Button", "RSHIFT", "JFR"]
+                "input-1": ["Jump", "JU", "JU"],
+                "input-2": ["Crouch", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Punch", "JF", "JFR"]
             }
         }
     },
@@ -296,18 +297,18 @@
         "header": "https://www.lemon64.com/assets/images/games/screens/laser_squad/laser_squad_02.png",
         "desc": "Laser Squad is a seminal tactical turn-based combat game. You command a small squad of troopers through various missions, from assassinations to rescue operations. Each unit has limited Action Points (AP) to spend on movement, aiming, and firing. The game's depth lies in its armor penetration mechanics, line-of-sight rules, and morale system, laying the groundwork for the future X-COM series.",
         "type": "Strategy",
-        "port": "2",
+        "port": "1",
         "players": "2",
         "inputs": {
             "player-1": {
-                "input-1": ["Move Cursor UP", "W", "JU"],
-                "input-2": ["Move Cursor Down", "S", "JD"],
-                "input-3": ["Move Cursor Left", "A", "JL"],
-                "input-4": ["Move Cursor Right", "D", "JR"],
-                "input-5": ["Select / Action", "LSHIFT", "JFR"],
-                "input-6": ["Next Unit", "SPACE", "Y"],
-                "input-7": ["Selection Menu", "M", "X"],
-                "input-8": ["End Turn", "E", "A"]
+                "input-1": ["Cursor UP", "JU", "JU"],
+                "input-2": ["Cursor Down", "JD", "JD"],
+                "input-3": ["Cursor Left", "JL", "JL"],
+                "input-4": ["Cursor Right", "JR", "JR"],
+                "input-5": ["Fire / Select", "JF", "JFR"],
+                "input-6": ["Help / Info", "F1", "A"],
+                "input-7": ["Options / Cycle Menu", "F3", "B"],
+                "input-8": ["End Turn", "F5", "C"]
             }
         }
     },
@@ -319,14 +320,14 @@
         "players": "1",
         "inputs": {
             "player-1": {
-                "input-1": ["Move Cursor UP", "W", "JU"],
-                "input-2": ["Move Cursor Down", "S", "JD"],
-                "input-3": ["Move Cursor Left", "A", "JL"],
-                "input-4": ["Move Cursor Right", "D", "JR"],
-                "input-5": ["Select / Interact", "LSHIFT", "JFR"],
-                "input-6": ["Switch Character", "F1", "Y"],
-                "input-7": ["Unlock Cursor (Free Move)", "F3", "X"],
-                "input-8": ["Quick Save", "F5", "A"]
+                "input-1": ["Cursor UP", "JU", "JU"],
+                "input-2": ["Cursor Down", "JD", "JD"],
+                "input-3": ["Cursor Left", "JL", "JL"],
+                "input-4": ["Cursor Right", "JR", "JR"],
+                "input-5": ["Fire / Select", "JF", "JFR"],
+                "input-6": ["Switch Kid 1", "F1", "A"],
+                "input-7": ["Switch Kid 2", "F3", "B"],
+                "input-8": ["Switch Kid 3", "F5", "C"]
             }
         }
     },
@@ -338,12 +339,14 @@
         "players": "1",
         "inputs": {
             "player-1": {
-                "input-1": ["Jump / Fly Up", "W", "JU"],
-                "input-2": ["Duck / Fly Down", "S", "JD"],
-                "input-3": ["Move Left", "A", "JL"],
-                "input-4": ["Move Right", "D", "JR"],
-                "input-5": ["Fire / Tongue Attack", "LSHIFT", "JFR"],
-                "input-6": ["Spit Ant (Projectile)", "SPACE", "TR"]
+                "input-1": ["Move UP", "JU", "JU"],
+                "input-2": ["Move Down", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Fire / Eat Ants", "JF", "JFR"],
+                "input-6": ["Toggle Music", "F1", "A"],
+                "input-7": ["Toggle SFX", "F3", "B"],
+                "input-8": ["Restart Level", "F5", "C"]
             }
         }
     },
@@ -355,11 +358,12 @@
         "players": "1",
         "inputs": {
             "player-1": {
-                "input-1": ["Climb Up", "W", "JU"],
-                "input-2": ["Climb Down / Duck", "S", "JD"],
-                "input-3": ["Move Left", "A", "JL"],
-                "input-4": ["Move Right", "D", "JR"],
-                "input-5": ["Jump", "LSHIFT", "JFR"]
+                "input-1": ["Move Left", "JL", "JL"],
+                "input-2": ["Move Right", "JR", "JR"],
+                "input-3": ["Climb Up", "JU", "JU"],
+                "input-4": ["Climb Down", "JD", "JD"],
+                "input-5": ["Jump", "JF", "JFR"],
+                "input-6": ["Start Game", "F1", "A"]
             }
         }
     },
@@ -371,18 +375,21 @@
         "players": "2",
         "inputs": {
             "player-1": {
-                "input-1": ["Accelerate", "W", "JU"],
-                "input-2": ["Brake", "S", "JD"],
-                "input-3": ["Steer Left", "A", "JL"],
-                "input-4": ["Steer Right", "D", "JR"],
-                "input-5": ["Turbo / Pit Action", "LSHIFT", "JFR"]
+                "input-1": ["Steer Left", "JL", "JL"],
+                "input-2": ["Steer Right", "JR", "JR"],
+                "input-3": ["Accelerate", "JU", "JU"],
+                "input-4": ["Brake", "JD", "JD"],
+                "input-5": ["Turbo / Pit Action", "JF", "JFR"],
+                "input-6": ["Start / Confirm", "F1", "A"],
+                "input-7": ["Options / Change Mode", "F3", "B"],
+                "input-8": ["Restart Race", "F5", "C"]
             },
             "player-2": {
-                "input-1": ["Accelerate", "I", "JU"],
-                "input-2": ["Brake", "K", "JD"],
-                "input-3": ["Steer Left", "J", "JL"],
-                "input-4": ["Steer Right", "L", "JR"],
-                "input-5": ["Turbo / Pit Action", "RSHIFT", "JFR"]
+                "input-1": ["Steer Left", "JL", "JL"],
+                "input-2": ["Steer Right", "JR", "JR"],
+                "input-3": ["Accelerate", "JU", "JU"],
+                "input-4": ["Brake", "JD", "JD"],
+                "input-5": ["Turbo / Pit Action", "JF", "JFR"]
             }
         }
     },
@@ -394,12 +401,15 @@
         "players": "1",
         "inputs": {
             "player-1": {
-                "input-1": ["Jump / Block / Climb Up", "W", "JU"],
-                "input-2": ["Crouch / Duck / Climb Down", "S", "JD"],
-                "input-3": ["Move Left", "A", "JL"],
-                "input-4": ["Move Right", "D", "JR"],
-                "input-5": ["Attack / Drink / Grab Ledge", "LSHIFT", "JFR"],
-                "input-6": ["Precise Step (Walk)", "SPACE", "Y"]
+                "input-1": ["Jump / Climb up", "JU", "JU"],
+                "input-2": ["Crouch", "JD", "JD"],
+                "input-3": ["Move Left", "JL", "JL"],
+                "input-4": ["Move Right", "JR", "JR"],
+                "input-5": ["Fire / Action", "JF", "JFR"],
+                "input-6": ["Show Time", "TR", "TR"],
+                "input-7": ["Pause", "F1", "A"],
+                "input-8": ["Restart Level", "F3", "B"],
+                "input-9": ["Toggle Sound / Options", "F5", "C"]
             }
         }
     },
