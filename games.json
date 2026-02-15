@@ -5,6 +5,7 @@
         "type": "Collect'em Up",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Move UP", "JU", "JU"],
@@ -21,6 +22,7 @@
         "type": "Fighting",
         "port": "2",
         "players": "2",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / Climb Up", "JU", "JU"],
@@ -47,6 +49,7 @@
         "type": "Platformer",
         "port": "2",
         "players": "2",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Jump", "JU", "JU"],
@@ -68,6 +71,7 @@
         "type": "Action",
         "port": "1",
         "players": "2",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Move UP", "JU", "JU"],
@@ -91,6 +95,7 @@
         "type": "Beat 'em Up",
         "port": "2",
         "players": "2",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Move Up", "JU", "JU"],
@@ -114,6 +119,7 @@
         "type": "Shoot'em Up",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Move UP / Jump", "JU", "JU"],
@@ -130,6 +136,7 @@
         "type": "Shoot'em Up",
         "port": "2",
         "players": "2",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Move Left", "JL", "JL"],
@@ -144,6 +151,7 @@
         "type": "Shoot 'em Up",
         "port": "2",
         "players": "2",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Move Left", "JL", "JL"],
@@ -163,6 +171,7 @@
         "type": "Shoot 'em Up",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Move Left", "JL", "JL"],
@@ -175,10 +184,11 @@
     },
     "Get Off my Garden!": {
         "header": "https://www.lemon64.com/assets/images/games/screens/get_off_my_garden/get_off_my_garden_01.png",
-        "desc": "In Get Off My Garden!, you take control of a General Agricultural Robot Functionary (G.A.R.F.) in a side‑view, single‑screen action/shooter setup. Your main goal is to grow six special plants (Aquaronum Upshootus) in your garden while defending them from waves of hostile creatures that try to destroy them.",
+        "desc": "In Get Off My Garden!, you take control of a General Agricultural Robot Functionary (G.A.R.F.) in a side-view, single-screen action/shooter setup. Your main goal is to grow six special plants (Aquaronum Upshootus) in your garden while defending them from waves of hostile creatures that try to destroy them.",
         "type": "Shoot'em Up",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Fly / Thrust UP", "JU", "JU"],
@@ -194,6 +204,7 @@
         "type": "Arcade",
         "port": "1",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Move UP", "JU", "JU"],
@@ -212,6 +223,7 @@
         "type": "Platformer",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / Climb Up", "JU", "JU"],
@@ -228,6 +240,7 @@
         "type": "Action",
         "port": "2",
         "players": "2",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / Climb UP", "JU", "JU"],
@@ -253,6 +266,7 @@
         "type": "Action",
         "port": "2",
         "players": "2",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Move UP", "JU", "JU"],
@@ -273,6 +287,7 @@
         "type": "Fighting",
         "port": "2",
         "players": "2",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Jump", "JU", "JU"],
@@ -299,6 +314,7 @@
         "type": "Strategy",
         "port": "1",
         "players": "2",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Cursor UP", "JU", "JU"],
@@ -318,6 +334,7 @@
         "type": "Adventure",
         "port": "1",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Cursor UP", "JU", "JU"],
@@ -337,6 +354,7 @@
         "type": "Platformer",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Move UP", "JU", "JU"],
@@ -356,6 +374,7 @@
         "type": "Platformer",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Move Left", "JL", "JL"],
@@ -373,6 +392,7 @@
         "type": "Racing",
         "port": "2",
         "players": "2",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Steer Left", "JL", "JL"],
@@ -399,6 +419,7 @@
         "type": "Platformer",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / Climb up", "JU", "JU"],
@@ -419,6 +440,7 @@
         "type": "Platformer",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / Climb Up", "W", "JU"],
@@ -437,6 +459,7 @@
         "type": "Platformer",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / Move Up", "JU", "JU"],
@@ -453,6 +476,7 @@
         "type": "Platformer",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Look Up / Jump", "W", "JU"],
@@ -470,6 +494,7 @@
         "type": "RPG",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Pitch Down / Move UP", "W", "JU"],
@@ -490,6 +515,7 @@
         "type": "Action",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Aim UP", "W", "JU"],
@@ -507,6 +533,7 @@
         "type": "Action",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Jump", "W", "JU"],
@@ -522,6 +549,7 @@
         "type": "Platformer",
         "port": "2",
         "players": "1",
+        "added": 1771172594,
         "inputs": {
             "player-1": {
                 "input-1": ["Jump / Fly Up", "W", "JU"],
