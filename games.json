@@ -281,7 +281,7 @@
         }
     },
     "Gunship": {
-        "header": "https://www.lemon64.com/assets/images/games/screens/gunship/gunship_01.png",
+        "header": "https://www.lemon64.com/assets/images/games/screens/gunship/gunship_04.png",
         "desc": "Gunship is a combat helicopter simulation where you pilot an AH-64 Apache through strategic missions including tank assaults, convoy interceptions, and base strikes. The game blends arcade shooting with light simulation elements such as weapon systems and radar management.",
         "type": "Simulation",
         "port": "2",
